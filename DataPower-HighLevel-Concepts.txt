@@ -1,0 +1,57 @@
+XML/SOAP firewall:
+	Field-level XML security, 
+	Data validation, 
+	XML Web services access control,
+	Service virtualization
+
+
+Preformance Stuff:
+	XML
+	EX Stylesheet Language Transformation (XSLT), 
+	XPath, 
+	XML Schema Definition (XSD).
+	
+Web Services Policy AND Service-Level Management:
+
+Supports Web services (WS) standards:
+	WS-Security, 
+	Security Assertion Markup Language (SAML) 1.0/1.1/2.0, 
+	WS-Federation,
+	WS-Trust, 
+	WS-SecureConversation, 
+	WS-Policy, WS-SecurityPolicy, 
+	WS-ReliableMessaging,
+    XML Key Management Specification (XKMS), Radius, 
+	XML Digital Signature,
+	XML-Encryption, Web Services Distributed Management (WSDM),	
+	SOAP,
+	Web Services Description Language (WSDL), 
+	Universal Description, Discovery, and Integration (UDDI)
+	
+	
+DataPower appliance models:
+	XA35(Web Tier),
+	XS40(Security Tier),
+	XI50(Integration & Management Tier)
+	
+	
+DataPower deployment scenarios & use cases:
+	Monitoring and management,
+		Statistics,
+		Web services management,
+		Service-level management
+	XML threat protection and security,
+		XML firewall,
+		XML Web services access control,
+		Authentication and authorization,
+		Field level message security
+	Functional acceleration
+	Application-aware routing and data aggregation
+		Routing,
+		Data model and namespace,
+		Versioning,
+		Message enrichment
+	Protocol and format bridging
+		Protocols
+		Any-to-any transformation engine
+	

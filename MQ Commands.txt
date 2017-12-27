@@ -1,0 +1,50 @@
+Check the QManager Status:
+========================
+dspmq -m QM1
+
+Run QManager:
+============
+runmqsc QM1
+
+Check Channel Authentication:
+===============================
+DISPLAY QMGR CHLAUTH
+&
+DISPLAY CHLAUTH(*)
+
+Ensure that the queue manager has a listener running and is listening on the right port.
+========================================================================================
+runmqlsr -t tcp -p <port_number> -m <qmgr_name>
+
+
+Problem(Abstract):
+===================
+===================
+	You create a new queue manager in WebSphere MQ 7.1, 7.5, 8.0 or 9.0 or later and you try to use a user id that is an MQ Administrator to access the queue manager via a server-connection channel (remotely from another host, or locally from the same host and not using bindings mode). You get an error with reason code 2035:(2035 MQRC_NOT_AUTHORIZED)
+	
+	Related error codes:
+	===================
+	MQ Explorer => AMQ4036 
+	MQ classes for JMS => JMSWMQ2013
+
+
+
+	Enable Remote Appconnection :
+	=============================
+	SET CHLAUTH(SYSTEM.DEF.SVRCONN) TYPE(BLOCKUSER) USERLIST(ALLOWANY)
+	  
+	SET CHLAUTH(SYSTEM.DEF.SVRCONN) TYPE(ADDRESSMAP) ADDRESS(*) USERSRC(CHANNEL)
+	 
+	REFRESH SECURITY
+
+	REFRESH SECURITY TYPE(AUTHSERV)
+
+	END
+	Remove Enabled Authentication:
+	==============================
+	SET CHLAUTH(SYSTEM.DEF.SVRCONN) TYPE(ADDRESSMAP) ADDRESS(*) ACTION(REMOVE)
+
+
+Disable Channel Authentication:
+==============================
+ALTER QMGR CHLAUTH(DISABLED)

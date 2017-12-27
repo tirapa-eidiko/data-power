@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<routes>
+<route request-name="getSum"
+service-url="http://192.168.3.190:8080/first-webservice/services/Hello"/>
+<route request-name="getUserName"
+service-url="http://192.168.3.190:8080/first-webservice/services/Hello"/>
+<route request-name="getSub"
+service-url="http://192.168.3.190:8080/first-webservice/services/Hello"/>
+</routes>

@@ -1,0 +1,8 @@
+Check listener is running or not?
+Check channel is running or not?
+Check channel auth is enabled or disabled? and disable channel auth.
+
+	DISPLAY QMGR CHLAUTH
+	ALTER QMGR CHLAUTH(DISABLED)
+	REFRESH SECURITY
+	REFRESH SECURITY TYPE(AUTHSERV)

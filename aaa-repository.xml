@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xsl:stylesheet version="1.0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+xmlns:dp="http://www.datapower.com/extensions"
+extension-element-prefixes="dp"
+exclude-result-prefixes="dp">
+
+<xsl:import href="local:///itso-common-debug.xsl"/>
+
+<xsl:template match="/">
+<xsl:apply-templates select="container"/>
+</xsl:template>
+
+<xsl:template match="container">
+<xsl:apply-templates select="mapped-credentials"/>
+</xsl:template>
+
+<xsl:template match="mapped-credentials">
+<xsl:apply-templates select="entry"/>
+</xsl:template>
+
+
+<xsl:template match="entry">
+
+<xsl:variable name="vUserId" select="userid"/>
+
+<xsl:variable name="vRequestName"
+select="dp:variable('var://context/WSM/resource/extracted-resource')"/>
+
+<xsl:call-template name="authorize">
+<xsl:with-param name="aUserId">
+<xsl:value-of select="$vUserId"/>
+</xsl:with-param>
+<xsl:with-param name="aRequestName">
+<xsl:value-of select="$vRequestName"/>
+</xsl:with-param>
+<xsl:with-param name="aDate">
+<xsl:value-of select="dp:time-value()"/>
+</xsl:with-param>
+</xsl:call-template>
+</xsl:template>
+
+<xsl:template name="authorize">
+<xsl:param name="aUserId"/>
+<xsl:param name="aRequestName"/>
+<xsl:param name="aDate"/>
+
+<xsl:variable name="vAuthorizationFile" select="document('local:///aaa-repository.xml')"/>
+
+<xsl:message dp:priority="error">
+<xsl:value-of select="concat('Request Name:',$aRequestName)"/>
+</xsl:message>
+
+<xsl:message dp:priority="error">
+<xsl:value-of select="concat('User Id :',$aUserId)"/>
+</xsl:message>
+
+<xsl:message dp:priority="error">
+<xsl:value-of select="concat('Date Time :',$aDate)"/>
+</xsl:message>
+
+<xsl:choose>
+<xsl:when test="$vAuthorizationFile != ''">
+
+
+
+<xsl:message dp:priority="error">
+<xsl:value-of select="concat('Before Start Date :',$vAuthorizationFile/aaa-data/authorize/request[@name=$aRequestName]/user[@id=string($aUserId)]/@start-date)"/>
+</xsl:message>
+
+<xsl:variable name="vStartDate"
+select="100"/>
+
+<xsl:message dp:priority="error">
+<xsl:value-of select="concat('After Start Date :',$vStartDate)"/>
+</xsl:message>
+
+
+<xsl:message dp:priority="error">
+<xsl:value-of select="concat('TIRAPA-DEBUG :',$vAuthorizationFile/aaa-data/authorize/request[@name=$aRequestName]/user[@id=string($aUserId)]/@start-date)"/>
+</xsl:message>
+
+<xsl:choose>
+<xsl:when test="number($aDate) &gt; number($vStartDate)">
+<approved/>
+</xsl:when>
+<xsl:otherwise>
+<declined/>
+</xsl:otherwise>
+</xsl:choose>
+</xsl:when>
+
+<xsl:otherwise>
+<declined/>
+</xsl:otherwise>
+</xsl:choose>
+</xsl:template>
+</xsl:stylesheet>

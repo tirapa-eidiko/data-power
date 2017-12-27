@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <id>tag:status.ciscospark.com,2005:/history</id>
+  <link rel="alternate" type="text/html" href="https://status.ciscospark.com"/>
+  <link rel="self" type="application/atom+xml" href="https://status.ciscospark.com/history.atom"/>
+  <title>Cisco Spark Status - Incident History</title>
+  <updated>2017-12-21T09:37:54Z</updated>
+  <author>
+    <name>Cisco Spark</name>
+  </author>
+  <entry>
+    <id>tag:status.ciscospark.com,2005:Incident/1534730</id>
+    <published>2017-12-16T05:03:33Z</published>
+    <updated>2017-12-16T05:03:33Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.ciscospark.com/incidents/0hx7dhfx578d"/>
+    <title>Cisco Spark Service Maintenance</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Dec 16, 05:03 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Completed&lt;/strong&gt; - This maintenance is complete.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Dec 16, 03:35 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Scheduled maintenance is currently in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Dec 13, 06:14 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - Cisco Spark is planning a maintenance window to support ongoing service maintenance and system upgrades. 
+&lt;br /&gt;
+&lt;br /&gt;-- Scheduled Maintenance Window -- 
+&lt;br /&gt;Start: 12/16/2017 03:30 UTC 
+&lt;br /&gt;Complete: 12/16/2017 06:00 UTC 
+&lt;br /&gt;
+&lt;br /&gt;-- User Experience Impact -- 
+&lt;br /&gt;Service disruption is expected to be minimal during the maintenance window. Most user impact is expected to be limited to approximately five minutes during the service redirect. During those few minutes, users may see a brief period of service latency or disconnect.  If you encounter an issue during the maintenance period, please restart your application and then retry the operation.
+&lt;br /&gt;
+&lt;br /&gt;Through the duration of the maintenance, creating new bots or integrations and editing existing ones, via the Spark Developer Portal, will be affected. 
+&lt;br /&gt;
+&lt;br /&gt;Plans for this maintenance are subject to change. This notice will be updated at https://status.ciscospark.com during the maintenance period. Thank you for your patience as we continue to improve Cisco Spark services. 
+&lt;br /&gt;
+&lt;br /&gt;If you have any issues or questions regarding Cisco Spark, please send a feedback/problem report from the Spark app. You may also contact Support by phone at +1-844-772-7524 or +1-408-906-1107. If you are outside the U.S., check this link for your support number: https://support.webex.com/MyAccountWeb/needsupport.do?userType=ht.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.ciscospark.com,2005:Incident/1538243</id>
+    <published>2017-12-15T17:49:59Z</published>
+    <updated>2017-12-15T17:49:59Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.ciscospark.com/incidents/rlsh413czd7c"/>
+    <title>Cisco Spark Cloud Calling media and voicemail service impact</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Dec 15, 17:49 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been fully resolved and services are operational.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Dec 15, 17:32 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - A fix has been deployed into production.  Services are restored, and the teams will continue to monitor.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Dec 15, 17:15 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Auto attendant messages, voicemail, conferencing and custom music on hold is unavailable for Cisco Spark Cloud Calling customers.  Engineering is working to restore services.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.ciscospark.com,2005:Incident/1538207</id>
+    <published>2017-12-15T17:41:39Z</published>
+    <updated>2017-12-15T17:41:39Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.ciscospark.com/incidents/gff9kjqrw44h"/>
+    <title>Intermittent issues utilizing Cisco Spark services</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Dec 15, 17:41 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This issue has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Dec 15, 17:26 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - Engineering has deployed a fix and services have stabilized.  The Engineering team will continue to monitor.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Dec 15, 17:05 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - Investigation is ongoing.  Additional impact includes some latency or failures when creating or decrypting new Spark spaces.  If you experience a failure, please try again as the issue is intermittent.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Dec 15, 16:51 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cisco Engineering is working on an issue causing intermittent issues when utilizing the Cisco Spark services.  Users may have intermittent errors or latency when sending messages.  Engineering is working to remediate the issue.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.ciscospark.com,2005:Incident/1536901</id>
+    <published>2017-12-14T18:59:38Z</published>
+    <updated>2017-12-14T18:59:38Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.ciscospark.com/incidents/p7wptp2lm1xb"/>
+    <title>Intermittent service latency or failures</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Dec 14, 18:59 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - Monitoring is complete and services continue to be fully restored.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Dec 14, 18:26 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - Services are restored and all monitors are passing.  The team will continue to monitor.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Dec 14, 18:01 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - Cisco Spark Engineering is aware of an issue that has caused intermittent latency or failures when utilizing the Cisco Spark service.  Service stabilization and restoration is actively in progress.  If you encounter an issue during the restoration efforts, please restart your application and then retry the operation.  Thank you for your patience.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.ciscospark.com,2005:Incident/1532325</id>
+    <published>2017-12-11T17:30:03Z</published>
+    <updated>2017-12-11T17:30:03Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.ciscospark.com/incidents/2n9vhtmfj55b"/>
+    <title>Some users are unable to log into the Cisco Spark iOS app</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Dec 11, 17:30 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident is resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Dec 11, 17:14 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - A solution was deployed and logins have been successful.  Teams will continue to monitor.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Dec 11, 15:47 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - Engineering has identified root cause and is deploying a fix.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Dec 11, 14:47 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - A subset of Cisco Spark users are unable to log into the iOS app.  Cisco Spark Engineering is engaged, and root cause is under investigation.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.ciscospark.com,2005:Incident/1526913</id>
+    <published>2017-12-09T04:17:40Z</published>
+    <updated>2017-12-09T04:17:40Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.ciscospark.com/incidents/21046jr7f25p"/>
+    <title>Cisco Spark Service Maintenance</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Dec  9, 04:17 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Completed&lt;/strong&gt; - This maintenance window is now complete. Thank you for your patience as we continue to improve Cisco Spark services.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Dec  9, 03:30 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Maintenance is in progress.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Dec  9, 03:02 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - We will be undergoing scheduled maintenance during this time.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Dec  9, 03:01 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Maintenance is in progress.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Dec  5, 20:59 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - Cisco Spark is planning a maintenance window to support ongoing service maintenance and system upgrades. 
+&lt;br /&gt;
+&lt;br /&gt;-- Scheduled Maintenance Window -- 
+&lt;br /&gt;Start: 12/09/2017 03:30 UTC 
+&lt;br /&gt;Complete: 12/09/2017 06:00 UTC 
+&lt;br /&gt;
+&lt;br /&gt;-- User Experience Impact -- 
+&lt;br /&gt;While impact is expected to be minimal, new user onboarding will be briefly impacted. Spark Administrators may experience impact when managing Spark configurations, users, devices, or places. Creating new bots or integrations and editing existing ones, via the Spark Developer Portal, will also be affected. If you encounter an issue during the maintenance period, please restart your application and then retry the operation.
+&lt;br /&gt;
+&lt;br /&gt;Plans for this maintenance are subject to change. This notice will be updated at https://status.ciscospark.com during the maintenance period. Thank you for your patience as we continue to improve Cisco Spark services. 
+&lt;br /&gt;
+&lt;br /&gt;If you have any issues or questions regarding Cisco Spark, please send a feedback/problem report from the Spark app. You may also contact Support by phone at +1-844-772-7524 or +1-408-906-1107. If you are outside the U.S., check this link for your support number: https://support.webex.com/MyAccountWeb/needsupport.do?userType=ht.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.ciscospark.com,2005:Incident/1528290</id>
+    <published>2017-12-06T22:45:33Z</published>
+    <updated>2017-12-06T22:45:33Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.ciscospark.com/incidents/zgc1gck402f9"/>
+    <title>Spark Board management issues</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Dec  6, 22:45 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - Cisco Spark Engineering identified an issue administering and upgrading Spark Boards.  Some customers experienced issues onboarding, performing factory resets or force upgrading Spark Boards.  Engineering has deployed a fix, and the issue is resolved.  Thanks for your patience while we addressed this issue.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.ciscospark.com,2005:Incident/1524977</id>
+    <published>2017-12-04T15:18:04Z</published>
+    <updated>2017-12-04T15:18:04Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.ciscospark.com/incidents/nsqzr383g5rr"/>
+    <title>Issues affecting Cisco Spark Call connectivity</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Dec  4, 15:18 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - Monitoring is complete. This incident is resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Dec  4, 14:44 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - Cisco Spark Engineering identified an issue affecting Cisco Spark Call.  During the impact time of 12:52 to 14:25 UTC, users may have been unable to use Music on Hold, Spark to Spark Calling, or some PSTN calling features.  Engineering has restored services as of 14:25 and is continuing to monitor.  We apologize for the service interruption.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.ciscospark.com,2005:Incident/1516645</id>
+    <published>2017-11-27T12:19:52Z</published>
+    <updated>2017-11-27T12:20:41Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.ciscospark.com/incidents/vs5qdnytwzp6"/>
+    <title>New authentication requests for login to Cisco Spark web client or Cisco Spark administration portal may fail</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Nov 27, 12:19 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Nov 27, 08:51 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - A fix has been implemented and Engineering is monitoring.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Nov 27, 06:12 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - Engineering has identified an issue and is working to restore services to the affected component.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Nov 27, 05:33 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cisco Spark Engineering has identified an issue where new authentication requests for the Cisco Spark web client or the administrator portal may intermittently fail.  Users who are already authenticated successfully and have a valid cached user token are unaffected.  Cisco Engineering is working to restore services.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.ciscospark.com,2005:Incident/1507158</id>
+    <published>2017-11-21T15:01:03Z</published>
+    <updated>2017-11-21T15:01:03Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.ciscospark.com/incidents/kdp84mxgbhg8"/>
+    <title>[Scheduled] Cisco Spark Care and Context Service Maintenance</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Nov 21, 15:01 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Completed&lt;/strong&gt; - Maintenance completed.  Thank you for your patience as we continue to improve Cisco Spark.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Nov 16, 21:16 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - Cisco Spark Care and Context Service are planning a maintenance window to support ongoing service maintenance and system upgrades.
+&lt;br /&gt;
+&lt;br /&gt;-- Scheduled Maintenance Time --
+&lt;br /&gt;Start: 11/21/2017 12:00 UTC
+&lt;br /&gt;Complete: 11/21/2017 14:00 UTC
+&lt;br /&gt;
+&lt;br /&gt;-- User Experience Impact --
+&lt;br /&gt;User impact to either Contact Service and Cisco Spark Care is expected to be minimal during this maintenance window.  No other service impact is expected.
+&lt;br /&gt;
+&lt;br /&gt;Plans for this maintenance are subject to change. This notice will be updated at https://status.ciscospark.com during the maintenance period. Thank you for your patience as we continue to improve Cisco Spark services.
+&lt;br /&gt;
+&lt;br /&gt;If you have any issues or questions regarding Cisco Spark, please contact Support by phone at +1-844-772-7524 or +1-408-906-1107. If you are outside the U.S., check this link for your support number: https://support.webex.com/MyAccountWeb/needsupport.do?userType=ht.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.ciscospark.com,2005:Incident/1502519</id>
+    <published>2017-11-18T05:48:34Z</published>
+    <updated>2017-11-18T05:48:34Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.ciscospark.com/incidents/rvknxqx9ccrc"/>
+    <title>Cisco Spark Service Maintenance</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Nov 18, 05:48 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Completed&lt;/strong&gt; - This maintenance window is now complete. Thank you for your patience as we continue to improve Cisco Spark services.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Nov 18, 03:33 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Maintenance is in progress.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Nov 14, 03:10 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - Cisco Spark is planning a maintenance window to support ongoing service maintenance and system upgrades.
+&lt;br /&gt;
+&lt;br /&gt;-- Scheduled Maintenance Window --
+&lt;br /&gt;Start: 11/18/2017 03:30 UTC
+&lt;br /&gt;Complete: 11/18/2017 06:00 UTC
+&lt;br /&gt;
+&lt;br /&gt;-- User Experience Impact --
+&lt;br /&gt;Service impact to Cisco Spark is expected to be minimal during the maintenance activity. Impact could include brief disconnects of Spark applications, lasting around five to ten minutes, during the redirection of services. A disconnect could cause errors such as failure to send a message or upload a file, call drops, and login errors. If you encounter an issue during the maintenance period, please restart your application and then retry the operation.
+&lt;br /&gt;
+&lt;br /&gt;Plans for this maintenance are subject to change. This notice will be updated at https://status.ciscospark.com during the maintenance period. Thank you for your patience as we continue to improve Cisco Spark services.
+&lt;br /&gt;
+&lt;br /&gt;If you have any issues or questions regarding Cisco Spark, please send a feedback/problem report from the Spark app. You may also contact Support by phone at +1-844-772-7524 or +1-408-906-1107. If you are outside the U.S., check this link for your support number: https://support.webex.com/MyAccountWeb/needsupport.do?userType=ht.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.ciscospark.com,2005:Incident/1508150</id>
+    <published>2017-11-17T17:45:03Z</published>
+    <updated>2017-11-17T17:45:03Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.ciscospark.com/incidents/6tj54kcs16n0"/>
+    <title>Cisco Spark Care:  Chat sessions cannot be initiated</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Nov 17, 17:45 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - Resolving the Cisco Spark Care incident.  Thank you for your patience while we restored services.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Nov 17, 17:21 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - Code deployment is complete and services are restored.  Engineering is continuing to monitor.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Nov 17, 16:37 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - Engineering is working on a code solution to address the issue.  Cisco Spark Care chat service restoration is still in progress.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Nov 17, 15:26 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - Cisco Spark Engineering is aware of an issue causing users to be unable to initiate chats using the Cisco Spark Care application.  Engineering is working to restore services.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.ciscospark.com,2005:Incident/1444476</id>
+    <published>2017-10-29T17:00:07Z</published>
+    <updated>2017-10-29T17:00:08Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.ciscospark.com/incidents/0h47w32qs46s"/>
+    <title>Cisco Spark Service Maintenance</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Oct 29, 17:00 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Completed&lt;/strong&gt; - This maintenance has been completed.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 29, 14:30 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Scheduled maintenance is currently in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 25, 22:37 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - Cisco Spark is planning a service maintenance to support system improvements.
+&lt;br /&gt;
+&lt;br /&gt;-- Scheduled Maintenance --
+&lt;br /&gt;Start: 10/29/2017 14:30 UTC
+&lt;br /&gt;Complete: 10/29/2017 17:00 UTC
+&lt;br /&gt;
+&lt;br /&gt;-- User Experience Impact --
+&lt;br /&gt;Service impact is expected to be minimal during the maintenance window. Impact is expected to be limited to five to ten minutes during the service redirect. During those few minutes, users may see a brief period of service latency or disconnect. If you encounter an issue during the maintenance period, please restart your application and then retry the operation.
+&lt;br /&gt;
+&lt;br /&gt;This notice will be updated at https://status.ciscospark.com during the maintenance period. Thank you for your patience as we continue to improve Cisco Spark services.
+&lt;br /&gt;
+&lt;br /&gt;If you have any issues or questions regarding Cisco Spark, please send a feedback/problem report from the Spark app. You may also contact Support by phone at +1-844-772-7524 or +1-408-906-1107. If you are outside the U.S., check this link for your support number: https://support.webex.com/MyAccountWeb/needsupport.do?userType=ht.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.ciscospark.com,2005:Incident/1420160</id>
+    <published>2017-10-21T04:59:41Z</published>
+    <updated>2017-10-21T04:59:41Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.ciscospark.com/incidents/m5c0tpb905yk"/>
+    <title>Cisco Spark Service Maintenance</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Oct 21, 04:59 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Completed&lt;/strong&gt; - This maintenance is complete.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 21, 02:30 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Scheduled maintenance is currently in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 19, 21:09 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - Scheduled - Cisco Spark is planning a maintenance window to support ongoing service maintenance and system upgrades. 
+&lt;br /&gt;
+&lt;br /&gt;-- Scheduled Maintenance Time: DATE CHANGE --
+&lt;br /&gt;Start: 10/21/2017 02:30 UTC 
+&lt;br /&gt;Complete: 10/21/2017 05:00 UTC 
+&lt;br /&gt;
+&lt;br /&gt;-- User Experience Impact -- 
+&lt;br /&gt;While impact is expected to be minimal, there will be user impact during the maintenance window. Users may experience intermittent periods of impact utilizing Cisco Spark applications, including messaging, calling, and meeting functions. If you encounter an issue during the maintenance period, please restart your application or room system and then retry the operation. 
+&lt;br /&gt;
+&lt;br /&gt;Plans for this maintenance are subject to change. This notice will be updated at https://status.ciscospark.com during the maintenance period. Thank you for your patience as we continue to improve Cisco Spark services. 
+&lt;br /&gt;
+&lt;br /&gt;If you have any issues or questions regarding Cisco Spark, please send a feedback/problem report from the Spark app. You may also contact Support by phone at +1-844-772-7524 or +1-408-906-1107. If you are outside the U.S., check this link for your support number: https://support.webex.com/MyAccountWeb/needsupport.do?userType=ht.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 19, 21:05 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - We will be undergoing scheduled maintenance during this time.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 19, 21:05 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - We will be undergoing scheduled maintenance during this time.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 16, 22:28 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - We will be undergoing scheduled maintenance during this time.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 16, 21:54 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - Cisco Spark is planning a maintenance window to support ongoing service maintenance and system upgrades.
+&lt;br /&gt;
+&lt;br /&gt;-- Scheduled Maintenance Time -- 
+&lt;br /&gt;Start: 10/20/2017 02:30 UTC
+&lt;br /&gt;Complete: 10/20/2017 05:00 UTC
+&lt;br /&gt;
+&lt;br /&gt;-- User Experience Impact -- 
+&lt;br /&gt;While impact is expected to be minimal, there will be user impact during the maintenance window. Users may experience intermittent periods of impact utilizing Cisco Spark applications, including messaging, calling, and meeting functions. If you encounter an issue during the maintenance period, please restart your application or room system and then retry the operation.
+&lt;br /&gt;
+&lt;br /&gt;Plans for this maintenance are subject to change. This notice will be updated at https://status.ciscospark.com during the maintenance period. Thank you for your patience as we continue to improve Cisco Spark services. 
+&lt;br /&gt;
+&lt;br /&gt;If you have any issues or questions regarding Cisco Spark, please send a feedback/problem report from the Spark app. You may also contact Support by phone at +1-844-772-7524 or +1-408-906-1107. If you are outside the U.S., check this link for your support number: https://support.webex.com/MyAccountWeb/needsupport.do?userType=ht.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.ciscospark.com,2005:Incident/1428954</id>
+    <published>2017-10-20T17:04:09Z</published>
+    <updated>2017-10-20T17:04:10Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.ciscospark.com/incidents/2298fxh73vqz"/>
+    <title>Spark Messaging, Care and Context Service: Service impact</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Oct 20, 17:04 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - Services are restored.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 20, 16:38 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - Services are operational, and Engineering is continuing to monitor.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 20, 16:30 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - Engineering has deployed a fix and services are stabilizing.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 20, 16:18 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - Cisco Spark Engineering is continuing to restore services.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 20, 15:39 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cisco Spark Engineering is investigating an issue causing intermittent Spark space creation failures.  Spark Care chat and call back services are also affected.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.ciscospark.com,2005:Incident/1428836</id>
+    <published>2017-10-20T14:50:10Z</published>
+    <updated>2017-10-20T14:50:10Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.ciscospark.com/incidents/7bmrglf23lnn"/>
+    <title>Spark services: Service impact affecting administration services</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Oct 20, 14:50 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 20, 14:49 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - Administration services are restored.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 20, 14:41 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - Control Hub authentication services have been restored.  Context Service and Care Assistant administration is still affected.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 20, 14:32 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - Cisco Spark Engineering is actively investigating an issue affecting some administration functions.  Impact includes latency or failures when authenticating to Cisco Spark Control Hub, and impact to other registration services.  Services are actively being restored.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.ciscospark.com,2005:Incident/1427297</id>
+    <published>2017-10-19T20:07:47Z</published>
+    <updated>2017-10-19T20:07:47Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.ciscospark.com/incidents/rcrff0p5fh73"/>
+    <title>Spark Service Impact</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Oct 19, 20:07 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - All services are fully operational.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 19, 20:01 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - Cisco Spark services have stabilized. Engineering continues to investigate an issue affecting some Context Service registrations.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 19, 19:46 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - Services are stabilizing.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 19, 19:39 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - Users may also experience issues logging into the web client.  Engineering is taking steps to restore services.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 19, 19:30 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cisco Spark Engineering is aware of an issue affecting some users creating new Spark spaces, as well as utilizing Spark Call, Spark Care, and Developer API features.  Engineering is working to fully restore services.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.ciscospark.com,2005:Incident/1420159</id>
+    <published>2017-10-19T04:45:59Z</published>
+    <updated>2017-10-19T04:45:59Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.ciscospark.com/incidents/4zkswyd9gk9w"/>
+    <title>Cisco Spark Service Maintenance</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Oct 19, 04:45 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Completed&lt;/strong&gt; - This maintenance window is complete.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 19, 02:30 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Scheduled maintenance is currently in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 16, 21:53 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - Cisco Spark is planning a maintenance window to support ongoing service maintenance and system upgrades.
+&lt;br /&gt;
+&lt;br /&gt;-- Scheduled Maintenance Time -- 
+&lt;br /&gt;Start: 10/19/2017 02:30 UTC
+&lt;br /&gt;Complete: 10/19/2017 05:00 UTC
+&lt;br /&gt;
+&lt;br /&gt;-- User Experience Impact -- 
+&lt;br /&gt;While impact is expected to be minimal, there will be user impact during the maintenance window. Users may experience intermittent periods of impact utilizing Cisco Spark applications, including messaging, calling, and meeting functions. If you encounter an issue during the maintenance period, please restart your application or room system and then retry the operation.
+&lt;br /&gt;
+&lt;br /&gt;Plans for this maintenance are subject to change. This notice will be updated at https://status.ciscospark.com during the maintenance period. Thank you for your patience as we continue to improve Cisco Spark services. 
+&lt;br /&gt;
+&lt;br /&gt;If you have any issues or questions regarding Cisco Spark, please send a feedback/problem report from the Spark app. You may also contact Support by phone at +1-844-772-7524 or +1-408-906-1107. If you are outside the U.S., check this link for your support number: https://support.webex.com/MyAccountWeb/needsupport.do?userType=ht.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.ciscospark.com,2005:Incident/1422819</id>
+    <published>2017-10-17T20:15:35Z</published>
+    <updated>2017-10-17T20:15:35Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.ciscospark.com/incidents/h8jzgmt4sh0s"/>
+    <title>Spark Message:  Intermittent issue with messaging</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Oct 17, 20:15 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 17, 20:10 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - Cisco Spark Engineering has deployed a fix to resolve this issue and services have been restored.  We are monitoring the service health.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 17, 19:49 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - Cisco Spark Engineering is working to fully restore services.  Customers may see issues with sending messages, creating spaces, and calling.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 17, 19:28 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cisco Spark Engineering is aware of an issue affecting the ability of some users to send messages.  Engineering is working to restore services quickly.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.ciscospark.com,2005:Incident/1416209</id>
+    <published>2017-10-17T04:23:50Z</published>
+    <updated>2017-10-17T04:23:50Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.ciscospark.com/incidents/jjw61wpggstq"/>
+    <title>Cisco Spark Service Maintenance</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Oct 17, 04:23 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Completed&lt;/strong&gt; - This maintenance window is complete.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 17, 02:30 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Scheduled maintenance is currently in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 15, 20:48 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - Cisco Spark is planning a maintenance window to support ongoing service maintenance and system upgrades.
+&lt;br /&gt;
+&lt;br /&gt;-- Next Scheduled Maintenance --
+&lt;br /&gt;Start: 10/17/2017 02:30 UTC
+&lt;br /&gt;Complete: 10/17/2017 05:00 UTC
+&lt;br /&gt;
+&lt;br /&gt;-- User Experience Impact --
+&lt;br /&gt;While impact is expected to be minimal, there will be user impact during the maintenance window. Users may experience intermittent periods of impact utilizing Cisco Spark applications, including messaging, calling, and meeting functions. If you encounter an issue during the maintenance period, please restart your application or room system and then retry the operation.
+&lt;br /&gt;
+&lt;br /&gt;Plans for this maintenance are subject to change. This notice will be updated at https://status.ciscospark.com during the maintenance period. Thank you for your patience as we continue to improve Cisco Spark services.
+&lt;br /&gt;
+&lt;br /&gt;If you have any issues or questions regarding Cisco Spark, please send a feedback/problem report from the Spark app. You may also contact Support by phone at +1-844-772-7524 or +1-408-906-1107. If you are outside the U.S., check this link for your support number: https://support.webex.com/MyAccountWeb/needsupport.do?userType=ht.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.ciscospark.com,2005:Incident/1419588</id>
+    <published>2017-10-16T20:30:17Z</published>
+    <updated>2017-10-16T20:30:17Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.ciscospark.com/incidents/hxpkt1wchqc1"/>
+    <title>Spark Meetings: Registration issue for some Spark Boards</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Oct 16, 20:30 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This cause of this issue has been resolved. 
+&lt;br /&gt;
+&lt;br /&gt;However, a small subset of Spark Boards will require administrators to reregister the device. To do so, the customer administrator should delete the device in Control Hub &gt; Places. Then use Control Hub &gt; Places to generate a new Activation Code and follow the instructions on screen to activate the device.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 16, 18:13 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - Cisco Spark Engineering is aware of an issue that caused a small number of Sparkboards to deregister between 12:02 and 12:10 UTC. The cause of this issue has been resolved.
+&lt;br /&gt;
+&lt;br /&gt;A small subset of Spark Boards will require administrators to reregister the device. To do so, the customer administrator should delete the device in Control Hub &gt; Places. Then use Control Hub &gt; Places to generate a new Activation Code and follow the instructions on screen to activate the device.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.ciscospark.com,2005:Incident/1411174</id>
+    <published>2017-10-15T02:56:43Z</published>
+    <updated>2017-10-15T02:56:44Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.ciscospark.com/incidents/1x7mcsdjp6bd"/>
+    <title>Cisco Spark Service Maintenance</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Oct 15, 02:56 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Completed&lt;/strong&gt; - This maintenance has completed. We apologize for the service interruption, and thank you for your patience while we completed our critical maintenance efforts.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 15, 00:30 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Scheduled maintenance is currently in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 13, 00:39 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - Cisco Spark is planning a significant service maintenance to support system improvements.
+&lt;br /&gt;
+&lt;br /&gt;-- Scheduled Maintenance -- 
+&lt;br /&gt;Start: 10/15/2017 00:30 UTC 
+&lt;br /&gt;Complete: 10/15/2017 03:00 UTC 
+&lt;br /&gt;
+&lt;br /&gt;-- User Experience Impact -- 
+&lt;br /&gt;During this maintenance window, all Spark services will be temporarily unavailable. We apologize for the service interruption, and the Cisco Spark Engineering teams will work to complete the maintenance tasks as quickly as possible to restore access to the service.
+&lt;br /&gt; 
+&lt;br /&gt;This notice will be updated at https://status.ciscospark.com during the maintenance period. Thank you for your patience as we continue to improve Cisco Spark services. 
+&lt;br /&gt;
+&lt;br /&gt;If you have any issues or questions regarding Cisco Spark, please send a feedback/problem report from the Spark app. You may also contact Support by phone at +1-844-772-7524 or +1-408-906-1107. If you are outside the U.S., check this link for your support number: https://support.webex.com/MyAccountWeb/needsupport.do?userType=ht.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.ciscospark.com,2005:Incident/1409079</id>
+    <published>2017-10-13T23:27:28Z</published>
+    <updated>2017-10-13T23:27:28Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.ciscospark.com/incidents/m1b6jpjm0nc1"/>
+    <title>Cisco Spark Service Maintenance</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Oct 13, 23:27 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Completed&lt;/strong&gt; - This maintenance window is complete.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 13, 22:00 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Scheduled maintenance is currently in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 11, 23:38 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - We will be undergoing scheduled maintenance during this time.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 11, 22:26 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - Cisco Spark is planning a maintenance window to support ongoing service maintenance and system upgrades.
+&lt;br /&gt;
+&lt;br /&gt;-- Next Scheduled Maintenance -- 
+&lt;br /&gt;Start: 10/13/2017 22:00 UTC
+&lt;br /&gt;Complete: 10/14/2017 00:30 UTC
+&lt;br /&gt;
+&lt;br /&gt;-- User Experience Impact -- 
+&lt;br /&gt;While impact is expected to be minimal, there will be user impact during the maintenance window. Users may experience intermittent periods of impact utilizing Cisco Spark applications, including messaging, calling, and meeting functions. If you encounter an issue during the maintenance period, please restart your application or room system and then retry the operation.
+&lt;br /&gt;
+&lt;br /&gt;Plans for this maintenance are subject to change. This notice will be updated at https://status.ciscospark.com during the maintenance period. Thank you for your patience as we continue to improve Cisco Spark services. 
+&lt;br /&gt;
+&lt;br /&gt;If you have any issues or questions regarding Cisco Spark, please send a feedback/problem report from the Spark app. You may also contact Support by phone at +1-844-772-7524 or +1-408-906-1107. If you are outside the U.S., check this link for your support number: https://support.webex.com/MyAccountWeb/needsupport.do?userType=ht.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.ciscospark.com,2005:Incident/1409163</id>
+    <published>2017-10-13T04:03:27Z</published>
+    <updated>2017-10-13T04:03:27Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.ciscospark.com/incidents/1wgszh0n5mly"/>
+    <title>Cisco Spark Service Maintenance</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Oct 13, 04:03 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Completed&lt;/strong&gt; - This maintenance is complete.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 13, 02:30 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Scheduled maintenance is currently in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 11, 23:38 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - We will be undergoing scheduled maintenance during this time.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 11, 23:34 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - Cisco Spark is planning a series of maintenance windows to support ongoing service maintenance and system upgrades.
+&lt;br /&gt;
+&lt;br /&gt;-- Next Scheduled Maintenance -- 
+&lt;br /&gt;Start: 10/13/2017 02:30 UTC
+&lt;br /&gt;Complete: 10/13/2017 05:00 UTC
+&lt;br /&gt;
+&lt;br /&gt;-- User Experience Impact -- 
+&lt;br /&gt;While impact is expected to be minimal, there will be user impact during the maintenance window. Users may experience intermittent periods of impact utilizing Cisco Spark applications, including messaging, calling, and meeting functions. If you encounter an issue during the maintenance period, please restart your application or room system and then retry the operation.
+&lt;br /&gt;
+&lt;br /&gt;Plans for this maintenance are subject to change. This notice will be updated at https://status.ciscospark.com during the maintenance period. Thank you for your patience as we continue to improve Cisco Spark services. 
+&lt;br /&gt;
+&lt;br /&gt;If you have any issues or questions regarding Cisco Spark, please send a feedback/problem report from the Spark app. You may also contact Support by phone at +1-844-772-7524 or +1-408-906-1107. If you are outside the U.S., check this link for your support number: https://support.webex.com/MyAccountWeb/needsupport.do?userType=ht.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.ciscospark.com,2005:Incident/1405156</id>
+    <published>2017-10-11T04:06:52Z</published>
+    <updated>2017-10-11T04:06:52Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.ciscospark.com/incidents/96lklc1r5l63"/>
+    <title>Spark Call: Planned service maintenance</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Oct 11, 04:06 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Completed&lt;/strong&gt; - This maintenance is complete.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct 11, 03:00 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Scheduled maintenance is currently in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct  9, 23:32 UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - Cisco Spark will conduct a maintenance activity supporting the Spark Call service. 
+&lt;br /&gt;
+&lt;br /&gt;-- Next Scheduled Maintenance --
+&lt;br /&gt;Start: 10/11/2017 3:00 UTC
+&lt;br /&gt;Complete: 10/11/2017 5:00 UTC
+&lt;br /&gt;
+&lt;br /&gt;-- User Experience Impact --
+&lt;br /&gt;Maintenance will be performed on the Spark Call system which will affect AutoAttendant and PSTN provisioning or usage. During this maintenance period, administrators will not be able to provision new PSTN services. AutoAttendant may have issues with provisioning or routing. New paging configurations will also be unavailable during this time.
+&lt;br /&gt;
+&lt;br /&gt;Plans for this maintenance are subject to change. This notice will be updated at https://status.ciscospark.com during the maintenance period.
+&lt;br /&gt;
+&lt;br /&gt;If you have any issues or questions regarding Cisco Spark, please send a feedback/problem report from the Spark app. You may also contact Support by phone at +1-844-772-7524 or +1-408-906-1107. If you are outside the U.S., check this link for your support number: https://support.webex.com/MyAccountWeb/needsupport.do?userType=ht.&lt;/p&gt;</content>
+  </entry>
+</feed>
