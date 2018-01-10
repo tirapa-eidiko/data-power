@@ -1,0 +1,28 @@
+<sql result="success">
+<row>
+<column>
+<name>USER_ID</name>
+<value>123</value>
+</column>
+<column>
+<name>ACCESS_TOKEN</name>
+<value>Cf8a158e8598ceec5c0049f406b001dfcaf406f929d5a6f0fd82d71a7d9191969</value>
+</column>
+<column>
+<name>REFRESH_TOKEN</name>
+<value>709d16e515e8f964043095aa6d8f5e7b1681fe8eb2f68d9041a4678d2fb8f757</value>
+</column>
+<column>
+<name>ACCESS_TOKEN_EXPIRY</name>
+<value>http://192.168.3.104:4001/token</value>
+</column>
+<column>
+<name>REFRESH_TOKEN_EXPIRY</name>
+<value>spark:all spark:kms</value>
+</column>
+<column>
+<name>SCOPES</name>
+<value>https://api.ciscospark.com/v1/authorize</value>
+</column>
+</row>
+</sql>

@@ -1,0 +1,7 @@
+client_id = C1e79c78860b231ff699cbc15251d09b28d1ea9007915cff7fb72a46e3e5c6dca
+client_secret = 734492ebdc48bff4cec06256bd9e93852bfa62e13658b1eede5e58cc9bd9dbb6
+integration_id = 734492ebdc48bff4cec06256bd9e93852bfa62e13658b1eede5e58cc9bd9dbb6
+redirect_uri = http://192.168.2.95:2079
+
+
+https://api.ciscospark.com/v1/authorize?client_id=C1e79c78860b231ff699cbc15251d09b28d1ea9007915cff7fb72a46e3e5c6dca&response_type=code&scope=spark%3Aall%20spark%3Akms&state=set_state_here

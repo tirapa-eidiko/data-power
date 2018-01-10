@@ -13,48 +13,90 @@ exclude-result-prefixes="dp">
 </xsl:template>
 
 <xsl:template name="generateTable">
-	<xsl:variable name="query">SELECT ROLLNO,STDNAME FROM DB2INST1.STUDENT</xsl:variable>
-        
-	<xsl:variable name="data" select="dp:sql-execute('saitejadb',$query)"/>
 
- <html>
- <script>
-function loadDoc() {
-console.log('IN load DOC');
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function(test) {
-   
-  };
-  xhttp.open("GET", "https://61e7ce76.ngrok.io/?fname%3DHenry%26lname%3DFord", true);
-  xhttp.send();
-}
-</script>
+
+<xsl:variable name="URI" select="substring-after(dp:variable('var://service/URI'),'/?')"/>
+
+<xsl:variable name="name">
+	<xsl:value-of select="substring-after($URI, 'name=')"/>
+</xsl:variable>
+
+
+
+
+<dp:set-variable name="'var://context/txn-info/name'" value="$name"/>
+
+
+<xsl:choose>
+  <xsl:when test="not(string(substring-before($name, '&amp;')))">
+    
+  </xsl:when>
+  <xsl:otherwise>
+    <xsl:variable name="name">
+		<xsl:value-of select="substring-before($name, '&amp;')"/>
+	</xsl:variable>
+	<dp:set-variable name="'var://context/txn-info/name'" value="$name"/>
+	<xsl:message dp:priority="error">
+		<xsl:value-of select="concat('SUSS Name:',$name)"/>
+</xsl:message>
+  </xsl:otherwise>
+</xsl:choose>
+
+<dp:set-variable name="'var://context/txn-info/id'" value="$id"/>
+<xsl:variable name="id">
+	<xsl:value-of select="substring-after($URI, 'id=')"/>
+</xsl:variable>
+<dp:set-variable name="'var://context/txn-info/id'" value="$id"/>
+
+<xsl:choose>
+  <xsl:when test="not(string(substring-before($id, '&amp;')))">
+    
+  </xsl:when>
+  <xsl:otherwise>
+    <xsl:variable name="id">
+		<xsl:value-of select="substring-before($id, '&amp;')"/>
+	</xsl:variable>
+	<dp:set-variable name="'var://context/txn-info/id'" value="$id"/>
+	<xsl:message dp:priority="error">
+		<xsl:value-of select="concat('SUSS ID:',$id)"/>
+	</xsl:message>
+  </xsl:otherwise>
+</xsl:choose>
+
+
+
+
+<xsl:message dp:priority="error">
+		<xsl:value-of select="dp:variable('var://context/txn-info/name')"/>
+</xsl:message>
+<xsl:message dp:priority="error">
+		<xsl:value-of select="dp:variable('var://context/txn-info/id')"/>
+</xsl:message>
+
+	<xsl:variable name="query">SELECT SERVICE_URL,REQUEST_NAME FROM cs.ROUTE</xsl:variable>
+
+	<xsl:variable name="data" select="dp:sql-execute('TIRAPA',$query)"/>
+
+	<html>
 		<body>
 			<table border="1">
-				<th>ROLLNO</th>
-				<th>STDNAME</th>
+				<th>REQUEST_NAME</th>
+				<th>SERVICE_URL</th>
 				<th>DATE_TIME</th>
-<th>Delete</th>
 				<xsl:for-each select="$data/sql/row">
 				<tr>
-				<td> <xsl:value-of select="column[name='ROLLNO']/value"/> </td>
-				<td> <xsl:value-of select="column[name='STDNAME']/value"/> </td>
+				<td> <xsl:value-of select="column[name='REQUEST_NAME']/value"/> </td>
+				<td> <xsl:value-of select="column[name='SERVICE_URL']/value"/> </td>
 				<td> <xsl:value-of select="date:date()"/> </td>
-<td><button type="submit">Delete</button></td>
 				</tr>
 				</xsl:for-each>
-<tr>
-<td><input type="text" id="RID"/></td>
-<td><input type="text" id="SID"/></td>
-<td><xsl:value-of select="date:date()"/></td>
-<td><button onclick="myFunction()">ADD</button></td>
-</tr>		
-</table>
+			</table>
+			<p>Name: <xsl:value-of select="dp:variable('var://context/txn-info/name')"/></p>
+			<p>ID : <xsl:value-of select="dp:variable('var://context/txn-info/id')"/></p>
 
 
 		</body>
 	</html>
-
 
 </xsl:template>
 

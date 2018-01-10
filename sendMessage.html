@@ -1,0 +1,49 @@
+<html>
+
+<body>
+<div id='sendDev' align="center">
+<select id='room'>
+	<option value='0'>Select</option>
+	<option value='room1'>Room-1</option>
+	<option value='room2'>Room-2</option>
+	<option value='room3'>Room-3</option>
+	<option value='room4'>Room-4</option>
+	<option value='room5'>Room-5</option>
+	<option value='room6'>Room-6</option>
+</select><br/>
+<textarea id="testData" rows="9" cols="50" >
+Write something to send a message.
+</textarea><br/>
+<input type='button' value='Send Message' id='send' onclick='sendMessage()'/>
+
+</div>
+
+
+
+</body>
+
+<head>
+<script>
+
+function sendMessage(){
+	
+	var room = document.getElementById('room').value;
+	var testData = document.getElementById('testData').value;
+	console.log('Room Selected ' + room);
+	console.log('Entered data ' + testData);
+	if(testData == 0){
+	alert("Enter a Message to send");
+	console.log('In');
+	}
+	
+	console.log('After');
+	if(testData != 0){
+		
+		window.location.href = "http://192.168.3.104:3001/send?room="+room+"&message="+testData+"";
+	}
+}
+
+
+</script>
+</head>
+</html>
